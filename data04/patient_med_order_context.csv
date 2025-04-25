@@ -1,0 +1,929 @@
+order_id,context,open_fda_api,train_test,medication,label,reason_fyi,ground_truth_monograph_chunk
+1,"Patient is a 71 years old female, height 1.56m and weighs 51kg. Latest heart rate is 92 bpm. Latest systolic blood pressure is 113. Patient has past medical history of Parkinson disease, Type 2 Diabetes Mellitus, Stable Ischemic Heart Disease. Currently patient is admitted for Vertigo,  Gastroesophageal reflux disease. 
+Patient is also taking the following medications: Oral Glipizide 15mg two times a day before meal, Oral Clopidogrel 75mg every morning, Oral Benserazide 25 mg/levodopa 100 mg twice a day. 
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 2.32 10^9/L
+Haemoglobin = 11.3 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 61.0 mL/min
+eGFR = 55.0 mL/min/1.73 m²
+Sodium = 141 mmol/L
+Potassium = 4.0 mmol/L
+Magnesium = 0.8 mmol/L
+Fasting Glucose = 7.1 mmol/L
+HbA1C = 6.5 %
+Hdl Hdl = 0.5 mmol/L
+LDL = 2.0 mmol/L
+TG = 2.0 mmol/L
+Microbiology Report: null
+Imaging Report: Chest X-ray: No significant lung consolidation, pleural effusion or pneumothorax. Cardiomediastinal contour unremarkable
+
+The doctor ordered oral metoclopramide 10mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METOCLOPRAMIDE%22,train,METOCLOPRAMIDE,unsafe,Symptoms of Parkinson disease may be exacerbated with metoclopramide use; avoid use in patients with Parkinson disease and other patients being treated with antiparkinsonian drugs.,"Patients with preexisting Parkinson's disease should be given metoclopramide cautiously, if at all, since such patients may experience exacerbation of parkinsonian symptoms when taking metoclopramide."
+2,"Patient is a 65 years old male, height 1.8m and weighs 60kg. Latest heart rate is 93 bpm. Latest systolic blood pressure is 117. Patient has past medical history of Parkinson disease, Type 2 Diabetes Mellitus. Currently patient is admitted for Fall, Community Acquired Pneumonia.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 2.3699999999999997 10^9/L
+Haemoglobin = 11.4 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 65.0 mL/min
+eGFR = 56.0 mL/min/1.73 m²
+Microbiology Report: null
+Imaging Report: Chest X-ray: Right Lower Lobe Pneumonia, Cardiomegaly
+
+The doctor ordered oral metoclopramide 10mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METOCLOPRAMIDE%22,test,METOCLOPRAMIDE,unsafe,Symptoms of Parkinson disease may be exacerbated with metoclopramide use; avoid use in patients with Parkinson disease and other patients being treated with antiparkinsonian drugs.,"Patients with preexisting Parkinson's disease should be given metoclopramide cautiously, if at all, since such patients may experience exacerbation of parkinsonian symptoms when taking metoclopramide."
+3,"Patient is a 31 years old male, height 1.68m and weighs 86kg. Latest heart rate is 87 bpm. Latest systolic blood pressure is 119. Patient has past medical history of Hypertension. Currently patient is admitted for Rhabdomylosis, Transaminitis.
+Patient is also taking the following medications: Oral Atenolol 50mg two times a day.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.56 10^9/L
+Haemoglobin = 14.9 g/dL
+Platelet = 318.0 g/dL
+Urea = 2.8 mmol/L
+eGFR = 111.0 mL/min/1.73 m²
+Sodium = 138 mmol/L
+Potassium = 4.0 mmol/L
+Bicarbonate = 28.0 mmol/L
+AST = 73.0 U/L
+ALT = 160.0 U/L
+Albumin = 46.0 g/L
+Creatinine Kinase = 52275.0 U/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral metoclopramide 10mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METOCLOPRAMIDE%22,train,METOCLOPRAMIDE,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,Administer from 10 mg to 15 mg metoclopramide orally up to 4 times daily 30 minutes before each meal and at bedtime. 
+4,"Patient is a 30 years old female, height 1.64m and weighs 84kg. Latest heart rate is 90 bpm. Latest systolic blood pressure is 120. Patient has past medical history of Gout. Currently patient is admitted for Gout Flare.
+Patient is also taking the following medications: Oral Allopurinol 100mg daily, Oral Febuxostat 40mg daily.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+Creatinine Clearance = 74.0 mL/min
+eGFR = 60.0 mL/min/1.73 m²
+Microbiology Report: null
+Imaging Report: Joint Aspiration: Monosodium Urate Crystals Detected
+
+The doctor ordered oral metoclopramide 10mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METOCLOPRAMIDE%22,test,METOCLOPRAMIDE,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,Administer from 10 mg to 15 mg metoclopramide orally up to 4 times daily 30 minutes before each meal and at bedtime. 
+5,"Patient is a 70 years old male, height 1.62m and weighs 81kg. Latest heart rate is 83 bpm. Latest systolic blood pressure is 109. Patient has past medical history of Child-Turcotte-Pugh Class C, Decompensated Cirrhosis, Ischemic Heart Disease, Acute Coronary Syndrome, Hyperlipidemia, Chronic Liver Disease. Currently patient is admitted for Fall.
+Patient is also taking the following medications: Oral Bisoprolol 5mg every morning, Oral Aspirin 100mg every morning.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 10.1 10^9/L
+Haemoglobin = 11.1 g/dL
+Platelet = 125.0 g/dL
+Urea = 16.0 mmol/L
+Creatinine Clearance = 35.0 mL/min
+Sodium = 132 mmol/L
+Potassium = 4.3 mmol/L
+Magnesium = 0.94 mmol/L
+Calcium = 1.99 mmol/L
+AST = 420.0 U/L
+ALT = 90.0 U/L
+Albumin = 20.0 g/L
+Microbiology Report: null
+Imaging Report: CT Thorax Abdomen and Pelvis:
+Extensive right hepatic lobe changes very suspicious for HCC. This is in the area of the possible previous early hepatoma. The exact extent is difficult to assess with background cirrhotic changes. Collateral vessels and ascites. Possible left lung metastases and borderline mediastinal adenopathy.
+
+The doctor ordered oral ibuprofen 200mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22IBUPROFEN%22,train,IBUPROFEN,unsafe,"Use of nonsteroidal anti-inflammatory drugs (NSAIDs) is associated with an increased risk of serious adverse cardiovascular (CV) events, including  heart attack, heart failure, and stroke. These can be fatal. Use should be avoided in patients with ischemic heart disease or stroke. ","Heart attack and stroke warning: NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal."
+6,"Patient is a 61 years old male, height 1.62m and weighs 74kg. Latest heart rate is 99 bpm. Latest systolic blood pressure is 142. Patient has past medical history of Hypertension, Hyperlipidemia. Currently patient is admitted for Stroke, Meningitis.
+Patient is also taking the following medications: null.
+Patient has known allergy to: G6PD.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 10.1 10^9/L
+Haemoglobin = 10.5 g/dL
+Platelet = 125.0 g/dL
+Creatinine Clearance = 65.0 mL/min
+eGFR = 56.0 mL/min/1.73 m²
+Sodium = 146 mmol/L
+Potassium = 3.9 mmol/L
+Magnesium = 0.85 mmol/L
+Fasting Glucose = 7.6 mmol/L
+HbA1C = 6.9 %
+Hdl Hdl = 1.2 mmol/L
+LDL = 3.8 mmol/L
+TG = 1.6 mmol/L
+Microbiology Report: null
+Imaging Report: CT Brain: The findings are consistent with a hemorrhagic stroke. Acute left frontal lobe intraparenchymal hemorrhage with surrounding edema and mild mass effect. Mild midline shift without evidence of herniation. No evidence of subarachnoid hemorrhage or significant ischemic changes outside the hemorrhagic region.
+
+The doctor ordered oral ibuprofen 200mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22IBUPROFEN%22,test,IBUPROFEN,unsafe,"Use of nonsteroidal anti-inflammatory drugs (NSAIDs) is associated with an increased risk of serious adverse cardiovascular (CV) events, including  heart attack, heart failure, and stroke. These can be fatal. Use should be avoided in patients with ischemic heart disease or stroke. ","Heart attack and stroke warning: NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke. These can be fatal."
+7,"Patient is a 31 years old female, height 1.68m and weighs 49kg. Latest heart rate is 87 bpm. Latest systolic blood pressure is 119. Patient has past medical history of null. Currently patient is admitted for Trigger Finger.
+Patient is also taking the following medications: null.
+Patient has known allergy to: tramadol.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.2 10^9/L
+Haemoglobin = 12.5 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 80.0 mL/min
+eGFR = 64.0 mL/min/1.73 m²
+Sodium = 140 mmol/L
+Potassium = 4.1 mmol/L
+Magnesium = 0.9 mmol/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral ibuprofen 200mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22IBUPROFEN%22,train,IBUPROFEN,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"Take 1 tablet every 4 to 6 hours while symptoms persist if pain or fever does not respond to 1 tablet, 2 tablets may be used do not exceed 6 tablets in 24 hours"
+8,"Patient is a 55 years old male, height 1.75m and weighs 78kg. Latest heart rate is 85 bpm. Latest systolic blood pressure is 130. Patient has past medical history of Type 2 Diabetes Mellitus. Currently patient is admitted for Total Hip Replacement.
+Patient is also taking the following medications: Oral Linagliptin 5mg every morning.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 5.3 10^9/L
+Haemoglobin = 10.9 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 65.0 mL/min
+eGFR = 59.0 mL/min/1.73 m²
+Sodium = 142 mmol/L
+Potassium = 4.0 mmol/L
+Magnesium = 0.96 mmol/L
+Fasting Glucose = 8.6 mmol/L
+HbA1C = 7.5 %
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral ibuprofen 200mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22IBUPROFEN%22,test,IBUPROFEN,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"Take 1 tablet every 4 to 6 hours while symptoms persist if pain or fever does not respond to 1 tablet, 2 tablets may be used do not exceed 6 tablets in 24 hours"
+9,"Patient is a 43 years old male, height 1.65m and weighs 85kg. Latest heart rate is 78 bpm. Latest systolic blood pressure is 125. Patient has past medical history of Diabetes Melitus Type 2, Hyperlipidemia. Currently patient is admitted for Acute Kidney Injury secondary to Gastroenteritis, Community Acquired Pneumonia.
+Patient is also taking the following medications: null.
+Patient has known allergy to: glipizide.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.5 10^9/L
+Haemoglobin = 14.7 g/dL
+Platelet = 403.0 g/dL
+High Sensitive C-Reactive Protein = 21.6 mg/L
+Urea = 4.8 mmol/L
+Creatinine Clearance = 16.0 mL/min
+eGFR = 25.0 mL/min/1.73 m²
+Sodium = 137 mmol/L
+Potassium = 4.7 mmol/L
+AST = 32.0 U/L
+ALT = 62.0 U/L
+Albumin = 35.0 g/L
+Fasting Glucose = 7.8 mmol/L
+HbA1C = 7.9 %
+Microbiology Report: null
+Imaging Report: Chest X-ray: Left lower zone airspace changes and possible small left pleural effusion. Mild right infrahilar airspace changes Biapical pleural thickening/scarring and fibronodular scarring in the right upper zone. The heart size is not accurately assessed on this projection.  Degenerative changes are noted in the imaged spine.
+
+The doctor ordered oral metformin 1g twice a day (after meals).",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METFORMIN%22,train,METFORMIN,unsafe,"Use of Metformin is contraindicated in patients with eGFR below 30 mL/minute/1.73 m 2. Furthermore, this patient is having acute kidney injury, metformin should be temporarily held until acute kidney injury has resolved.",Do not use in patients with eGFR below 30 mL/minute/1.73 m 2 ( 2.2 ) Initiation is not recommended in patients with eGFR between 30 to 45 mL/minute/1.73 m 2 ( 2.2 ) Assess risk/benefit of continuing if eGFR falls below 45 mL/minute/1.73 m 2 ( 2.2 ) Discontinue if eGFR falls below 30 mL/minute/1.73 m 2 ( 2.2 ) 
+10,"Patient is a 46 years old male, height 1.68m and weighs 86kg. Latest heart rate is 87 bpm. Latest systolic blood pressure is 119. Patient has past medical history of Vertigo. Currently patient is admitted for Newly Diagnosed Type 2 Diabetes Mellitus, Recurrent Cellulitis.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+Creatinine Clearance = 47.0 mL/min
+eGFR = 40.0 mL/min/1.73 m²
+Fasting Glucose = 9.1 mmol/L
+HbA1C = 8.1 %
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral metformin 500mg two times a day (after meals).",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METFORMIN%22,test,METFORMIN,unsafe,Initiation of Metformin is not recommended in patients with eGFR between 30 to 45 mL/minute/1.73 m 2.,Do not use in patients with eGFR below 30 mL/minute/1.73 m 2 ( 2.2 ) Initiation is not recommended in patients with eGFR between 30 to 45 mL/minute/1.73 m 2 ( 2.2 ) Assess risk/benefit of continuing if eGFR falls below 45 mL/minute/1.73 m 2 ( 2.2 ) Discontinue if eGFR falls below 30 mL/minute/1.73 m 2 ( 2.2 ) 
+11,"Patient is a 55 years old male, height 1.75m and weighs 78kg. Latest heart rate is 85 bpm. Latest systolic blood pressure is 130. Patient has past medical history of Type 2 Diabetes Mellitus. Currently patient is admitted for Total Hip Replacement.
+Patient is also taking the following medications: Oral Linagliptin 5mg every morning.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 5.3 10^9/L
+Haemoglobin = 10.9 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 65.0 mL/min
+eGFR = 59.0 mL/min/1.73 m²
+Sodium = 142 mmol/L
+Potassium = 4.0 mmol/L
+Magnesium = 0.96 mmol/L
+Fasting Glucose = 8.6 mmol/L
+HbA1C = 7.5 %
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral metformin 500mg two times a day (after meals).",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METFORMIN%22,train,METFORMIN,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"Starting dose: 500 mg orally once daily with the evening meal ( 2.1 ) Increase the dose in increments of 500 mg weekly, up to a maximum of 2,000 mg once daily with the evening meal ( 2.1 )"
+12,"Patient is a 71 years old female, height 1.56m and weighs 51kg. Latest heart rate is 92 bpm. Latest systolic blood pressure is 113. Patient has past medical history of Parkinson disease, Type 2 Diabetes Mellitus, Stable Ischemic Heart Disease. Currently patient is admitted for Vertigo,  Gastroesophageal reflux disease.
+Patient is also taking the following medications: Oral Glipizide 15mg two times a day before meal, Oral Clopidogrel 75mg every morning, Oral Benserazide 25 mg/levodopa 100 mg twice a day.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 2.32 10^9/L
+Haemoglobin = 11.3 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 61.0 mL/min
+eGFR = 55.0 mL/min/1.73 m²
+Sodium = 141 mmol/L
+Potassium = 4.0 mmol/L
+Magnesium = 0.8 mmol/L
+Fasting Glucose = 7.1 mmol/L
+HbA1C = 6.5 %
+Hdl Hdl = 0.5 mmol/L
+LDL = 2.0 mmol/L
+TG = 2.0 mmol/L
+Microbiology Report: null
+Imaging Report: Chest X-ray: No significant lung consolidation, pleural effusion or pneumothorax. Cardiomediastinal contour unremarkable
+
+The doctor ordered oral metformin 500mg three times a day (after meals).",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METFORMIN%22,test,METFORMIN,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"Starting dose: 500 mg orally once daily with the evening meal ( 2.1 ) Increase the dose in increments of 500 mg weekly, up to a maximum of 2,000 mg once daily with the evening meal ( 2.1 )"
+13,"Patient is a 55 years old male, height 1.75m and weighs 78kg. Latest heart rate is 85 bpm. Latest systolic blood pressure is 130. Patient has past medical history of Kidney Transplant, Hyperlipidemia, Hypertension. Currently patient is admitted for Mild Acute Rejection Episode.
+Patient is also taking the following medications: Oral Prednisolone 5mg every morning, Oral Cyclosporine 325mg twice a day.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.2 10^9/L
+Haemoglobin = 12.5 g/dL
+Platelet = 210.0 g/dL
+High Sensitive C-Reactive Protein = 10.0 mg/L
+Urea = 6.5 mmol/L
+Creatinine Clearance = 65.0 mL/min
+eGFR = 58.0 mL/min/1.73 m²
+Sodium = 138 mmol/L
+Potassium = 4.5 mmol/L
+Magnesium = 0.8 mmol/L
+Calcium = 1.1 mmol/L
+Bicarbonate = 22.0 mmol/L
+AST = 35.0 U/L
+ALT = 40.0 U/L
+Albumin = 38.0 g/L
+Fasting Glucose = 7.5 mmol/L
+HbA1C = 8.2 %
+Hdl Hdl = 1.0 mmol/L
+LDL = 3.2 mmol/L
+TG = 1.5 mmol/L
+Microbiology Report: null
+Imaging Report: Renal Ultrasound: No hydronephrosis, stable allograft
+
+The doctor ordered oral rosuvastatin 20mg every night.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ROSUVASTATIN%22,train,ROSUVASTATIN,unsafe,"For patients who are also concomitantly on Cyclosporine, rosuvastatin dose should not exceed 5 mg once daily.",2.4 Use with Concomitant Therapy Patients taking cyclosporine and darolutamide The dose of rosuvastatin tablets should not exceed 5 mg once daily
+14,"Patient is a 30 years old female, height 1.64m and weighs 84kg. Latest heart rate is 90 bpm. Latest systolic blood pressure is 120. Patient has past medical history of Gout. Currently patient is admitted for Gout Flare.
+Patient is also taking the following medications: Oral Allopurinol 100mg daily, Oral Gemfibrozil 40mg daily.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+Creatinine Clearance = 74.0 mL/min
+eGFR = 60.0 mL/min/1.73 m²
+Microbiology Report: null
+Imaging Report: Joint Aspiration: Monosodium Urate Crystals Detected
+
+The doctor ordered oral rosuvastatin 40mg every night.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ROSUVASTATIN%22,test,ROSUVASTATIN,unsafe,"For patients who are also concomitantly on Febuxostat, rosuvastatin dose should not exceed 20 mg once daily."," Patients taking gemfibrozil Avoid concomitant use of rosuvastatin with gemfibrozil. If concomitant use cannot be avoided, initiate rosuvastatin tablets at 5 mg once daily. The dose of rosuvastatin tablets should not exceed 10 mg once daily"
+15,"Patient is a 61 years old male, height 1.62m and weighs 74kg. Latest heart rate is 99 bpm. Latest systolic blood pressure is 142. Patient has past medical history of Hypertension, Hyperlipidemia. Currently patient is admitted for Stroke, Meningitis.
+Patient is also taking the following medications: null.
+Patient has known allergy to: G6PD.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 10.1 10^9/L
+Haemoglobin = 10.5 g/dL
+Platelet = 125.0 g/dL
+Creatinine Clearance = 65.0 mL/min
+eGFR = 56.0 mL/min/1.73 m²
+Sodium = 146 mmol/L
+Potassium = 3.9 mmol/L
+Magnesium = 0.85 mmol/L
+Fasting Glucose = 7.6 mmol/L
+HbA1C = 6.9 %
+Hdl Hdl = 1.2 mmol/L
+LDL = 3.8 mmol/L
+TG = 1.6 mmol/L
+Microbiology Report: null
+Imaging Report: CT Brain: The findings are consistent with a hemorrhagic stroke. Acute left frontal lobe intraparenchymal hemorrhage with surrounding edema and mild mass effect. Mild midline shift without evidence of herniation. No evidence of subarachnoid hemorrhage or significant ischemic changes outside the hemorrhagic region.
+
+The doctor ordered oral rosuvastatin 10mg every night.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ROSUVASTATIN%22,train,ROSUVASTATIN,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,Dose range: 5 to 40 mg once daily. Use 40 mg dose only for patients not reaching LDL goal with 20 mg. 
+16,"Patient is a 43 years old male, height 1.65m and weighs 85kg. Latest heart rate is 78 bpm. Latest systolic blood pressure is 125. Patient has past medical history of Diabetes Melitus Type 2, Hyperlipidemia. Currently patient is admitted for Acute Kidney Injury secondary to Gastroenteritis, Community Acquired Pneumonia.
+Patient is also taking the following medications: null.
+Patient has known allergy to: glipizide.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.5 10^9/L
+Haemoglobin = 14.7 g/dL
+Platelet = 403.0 g/dL
+High Sensitive C-Reactive Protein = 21.6 mg/L
+Urea = 4.8 mmol/L
+Creatinine Clearance = 16.0 mL/min
+eGFR = 25.0 mL/min/1.73 m²
+Sodium = 137 mmol/L
+Potassium = 4.7 mmol/L
+AST = 32.0 U/L
+ALT = 62.0 U/L
+Albumin = 35.0 g/L
+Fasting Glucose = 7.8 mmol/L
+HbA1C = 7.9 %
+Microbiology Report: null
+Imaging Report: Chest X-ray: Left lower zone airspace changes and possible small left pleural effusion. Mild right infrahilar airspace changes Biapical pleural thickening/scarring and fibronodular scarring in the right upper zone. The heart size is not accurately assessed on this projection.  Degenerative changes are noted in the imaged spine.
+
+The doctor ordered oral rosuvastatin 5mg every night.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ROSUVASTATIN%22,test,ROSUVASTATIN,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"2.5 Dosing in Patients with Severe Renal Impairment For patients with severe renal impairment (CL cr <30 mL/min/1.73 m 2 ) not on hemodialysis, dosing of rosuvastatin tablets should be started at 5 mg once daily and not exceed 10 mg once daily"
+17,"Patient is a 63 years old male, height 1.72m and weighs 90kg. Latest heart rate is 80 bpm. Latest systolic blood pressure is 122. Patient has past medical history of Chronic Kidney Disease. Currently patient is admitted for Right Lower Limb Cellulitis .
+Patient is also taking the following medications: Subcutaneous Epoetin Beta Prefilled Syringe 4000u 3 times per week, Oral Renal Vitamin 1 tab every night.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 13.6 10^9/L
+Haemoglobin = 11.3 g/dL
+Platelet = 355.0 g/dL
+High Sensitive C-Reactive Protein = 271.8 mg/L
+Urea = 5.4 mmol/L
+Creatinine Clearance = 15.0 mL/min
+eGFR = 10.0 mL/min/1.73 m²
+Sodium = 141 mmol/L
+Potassium = 3.8 mmol/L
+Magnesium = 0.7 mmol/L
+Bicarbonate = 24.0 mmol/L
+AST = 42.0 U/L
+ALT = 34.0 U/L
+Microbiology Report: Investigation name is Wound culture, aerobic and anaerobic and Investigation item is Wound Culture (Aerobic and Anaerobic) (NUHS). Abnormal Results: (Heavy) Staphylococcus aureus. Methylcillin sensitive staph aureis. Culture sensitivity results pending
+Imaging Report: null
+
+The doctor ordered intravenous cefazolin 2g every 8 hours.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CEFAZOLIN%22,train,CEFAZOLIN,unsafe,The ordered dose of 2g every 8 hours needs to be renally dose adjusted for the patient. Patients with creatinine clearance rates of 11 to 34 mL/min should be given half the usual dose every 12 hours. Recommended dose should be 1g every 12 hours instead.,Patients with creatinine clearance rates of 11 to 34 mL/min. or serum creatinine of 3.1 to 4.5 mg % should be given 1 / 2 the usual dose every 12 hours.
+18,"Patient is a 46 years old male, height 1.68m and weighs 86kg. Latest heart rate is 87 bpm. Latest systolic blood pressure is 119. Patient has past medical history of Vertigo. Currently patient is admitted for Newly Diagnosed Type 2 Diabetes Mellitus, Recurrent Cellulitis.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+Creatinine Clearance = 47.0 mL/min
+eGFR = 40.0 mL/min/1.73 m²
+Fasting Glucose = 9.1 mmol/L
+HbA1C = 8.1 %
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered intravenous cefazolin 1g every 6 hours.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CEFAZOLIN%22,test,CEFAZOLIN,unsafe,"Patients with creatinine clearance rates of 35 to 54 mL/min can be given full doses of Cefazolin but dosage should be restricted to at least 8 hour intervals. Since this patient has a creatinine clearance of  45mL/min, the cefazolin dose should be restricted to 1g every 8 hours. ",Patients with creatinine clearance rates of 35 to 54 mL/min. or serum creatinine of 1.6 to 3.0 mg % can also be given full doses but dosage should be restricted to at least 8 hour intervals.
+19,"Patient is a 35 years old female, height 1.48m and weighs 46kg. Latest heart rate is 96 bpm. Latest systolic blood pressure is 120. Patient has past medical history of null. Currently patient is admitted for Facial Cellulitis, Vertigo.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 15.36 10^9/L
+Haemoglobin = 8.1 g/dL
+Platelet = 199.0 g/dL
+High Sensitive C-Reactive Protein = 109.0 mg/L
+Urea = 8.7 mmol/L
+Creatinine Clearance = 78.0 mL/min
+eGFR = 64.0 mL/min/1.73 m²
+Sodium = 141 mmol/L
+Potassium = 4.0 mmol/L
+Magnesium = 0.8 mmol/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered intravenous cefazolin 1g every 8 hours.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CEFAZOLIN%22,train,CEFAZOLIN,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,DOSAGE AND ADMINISTRATION Usual Adult Dosage: Type of Infection Dose Frequency Moderate to severe infections 500 mg to 1 gram every 6 to 8 hours 
+20,"Patient is a 31 years old female, height 1.59m and weighs 60kg. Latest heart rate is 95 bpm. Latest systolic blood pressure is 114. Patient has past medical history of Irritable Bowel Syndrome. Currently patient is admitted for Methicillin Sensitive Staphylococcus Aureus Bacteremia.
+Patient is also taking the following medications: Oral Paracetamol 1g four times a day when necessary for fever pain.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 13.8 10^9/L
+Haemoglobin = 13.8 g/dL
+Platelet = 142.0 g/dL
+Urea = 3.3 mmol/L
+Creatinine Clearance = 96.0 mL/min
+eGFR = 98.0 mL/min/1.73 m²
+Potassium = 134.0 mmol/L
+AST = 33.0 U/L
+ALT = 6.0 U/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered intravenous cefazolin 1.5g every 6 hours.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CEFAZOLIN%22,test,CEFAZOLIN,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"Severe, life-threatening infections (e.g., endocarditis, septicemia)* 1 gram to 1.5 grams every 6 hours * In rare instances, doses of up to 12 grams of Cefazolin for Injection per day have been used."
+21,"Patient is a 43 years old male, height 1.65m and weighs 85kg. Latest heart rate is 78 bpm. Latest systolic blood pressure is 125. Patient has past medical history of Diabetes Melitus Type 2, Hyperlipidemia. Currently patient is admitted for Acute Kidney Injury secondary to Gastroenteritis, Community Acquired Pneumonia.
+Patient is also taking the following medications: null.
+Patient has known allergy to: glipizide.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.5 10^9/L
+Haemoglobin = 14.7 g/dL
+Platelet = 403.0 g/dL
+High Sensitive C-Reactive Protein = 21.6 mg/L
+Urea = 4.8 mmol/L
+Creatinine Clearance = 16.0 mL/min
+eGFR = 25.0 mL/min/1.73 m²
+Sodium = 137 mmol/L
+Potassium = 4.7 mmol/L
+AST = 32.0 U/L
+ALT = 62.0 U/L
+Albumin = 35.0 g/L
+Fasting Glucose = 7.8 mmol/L
+HbA1C = 7.9 %
+Microbiology Report: null
+Imaging Report: Chest X-ray: Left lower zone airspace changes and possible small left pleural effusion. Mild right infrahilar airspace changes Biapical pleural thickening/scarring and fibronodular scarring in the right upper zone. The heart size is not accurately assessed on this projection.  Degenerative changes are noted in the imaged spine.
+
+The doctor ordered intravenous ceftriaxone 2g every 12 hours.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CEFTRIAXONE%22,train,CEFTRIAXONE,unsafe,"The usual adult daily dose is 1 to 2 grams given once a day (or in equally divided doses twice a day) depending on the type and severity of infection. The patient is having community aquired pneumonia, and thus the recommended dose is 1g twice a day or 2g once a day. The current ordered dose of 2g twice a day is an overdose and thus it is not safe.",The usual adult daily dose is 1 to 2 grams given once a day (or in equally divided doses twice a day) depending on the type and severity of infection. The total daily dose should not exceed 4 grams.
+22,"Patient is a 56 years old male, height 1.68m and weighs 86kg. Latest heart rate is 87 bpm. Latest systolic blood pressure is 119. Patient has past medical history of null. Currently patient is admitted for Meningitis.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 15.45 10^9/L
+Haemoglobin = 14.1 g/dL
+Platelet = 199.0 g/dL
+High Sensitive C-Reactive Protein = 134.0 mg/L
+Creatinine Clearance = 64.0 mL/min
+eGFR = 69.0 mL/min/1.73 m²
+Sodium = 13* mmol/L
+Potassium = 3.8 mmol/L
+Magnesium = 0.86 mmol/L
+Microbiology Report: CSF Culture: Positive for Streptococcus pneumoniae Susceptibility testing in progress
+Imaging Report: MRI Brain without contrast: Diffuse leptomeningeal enhancement consistent with meningitis. No evidence of abscess or empyema. Imaging studies demonstrate findings consistent with meningitis and associated mild cerebral edema. Recommendations: Continue broad-spectrum antibiotics pending final culture and sensitivity results
+
+The doctor ordered intravenous ceftriaxone 1g every 24 hours.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CEFTRIAXONE%22,test,CEFTRIAXONE,unsafe,"In the treatment of meningitis, it is recommended that the initial therapeutic dose of ceftriaxone be 100 mg/kg (not to exceed 4 grams). The current ordered dose of 1g every 24 hours is considered underdosing for the treatment of meningitis. Treatment efficacy is compromised and thus, it is not safe.","In the treatment of meningitis, it is recommended that the initial therapeutic dose be 100 mg/kg (not to exceed 4 grams). Thereafter, a total daily dose of 100 mg/kg/day (not to exceed 4 grams daily) is recommended. The daily dose may be administered once a day (or in equally divided doses every 12 hours). "
+23,"Patient is a 65 years old male, height 1.8m and weighs 60kg. Latest heart rate is 93 bpm. Latest systolic blood pressure is 117. Patient has past medical history of Parkinson disease, Type 2 Diabetes Mellitus. Currently patient is admitted for Fall, Community Acquired Pneumonia.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 2.3699999999999997 10^9/L
+Haemoglobin = 11.4 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 65.0 mL/min
+eGFR = 56.0 mL/min/1.73 m²
+Microbiology Report: null
+Imaging Report: Chest X-ray: Right Lower Lobe Pneumonia, Cardiomegaly
+
+The doctor ordered intravenous ceftriaxone 1g every 12 hours.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CEFTRIAXONE%22,train,CEFTRIAXONE,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,The usual adult daily dose is 1 to 2 grams given once a day (or in equally divided doses twice a day) depending on the type and severity of infection. The total daily dose should not exceed 4 grams.
+24,"Patient is a 61 years old male, height 1.62m and weighs 74kg. Latest heart rate is 99 bpm. Latest systolic blood pressure is 142. Patient has past medical history of Hypertension, Hyperlipidemia. Currently patient is admitted for Stroke, Meningitis.
+Patient is also taking the following medications: null.
+Patient has known allergy to: G6PD.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 10.1 10^9/L
+Haemoglobin = 10.5 g/dL
+Platelet = 125.0 g/dL
+Creatinine Clearance = 65.0 mL/min
+eGFR = 56.0 mL/min/1.73 m²
+Sodium = 146 mmol/L
+Potassium = 3.9 mmol/L
+Magnesium = 0.85 mmol/L
+Fasting Glucose = 7.6 mmol/L
+HbA1C = 6.9 %
+Hdl Hdl = 1.2 mmol/L
+LDL = 3.8 mmol/L
+TG = 1.6 mmol/L
+Microbiology Report: null
+Imaging Report: CT Brain: The findings are consistent with a hemorrhagic stroke. Acute left frontal lobe intraparenchymal hemorrhage with surrounding edema and mild mass effect. Mild midline shift without evidence of herniation. No evidence of subarachnoid hemorrhage or significant ischemic changes outside the hemorrhagic region.
+
+The doctor ordered intravenous ceftriaxone 2g every 12 hours.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CEFTRIAXONE%22,test,CEFTRIAXONE,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,The usual adult daily dose is 1 to 2 grams given once a day (or in equally divided doses twice a day) depending on the type and severity of infection. The total daily dose should not exceed 4 grams.
+25,"Patient is a 58 years old male, height 1.65m and weighs 85kg. Latest heart rate is 89 bpm. Latest systolic blood pressure is 181. Patient has past medical history of Hypertension. Currently patient is admitted for Hypertensive Crisis.
+Patient is also taking the following medications: Oral Bisoprolol 5mg every morning.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+Creatinine Clearance = 24.0 mL/min
+eGFR = 26.0 mL/min/1.73 m²
+Sodium = 138 mmol/L
+Potassium = 4.5 mmol/L
+Magnesium = 0.8 mmol/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral enalapril 5mg every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ENALAPRIL%22,train,ENALAPRIL,unsafe,This order is not safe because the maximum daily dose of Enalapril in patients with Creatinine Clearance ?30 mL/min is 2.5mg daily. Patient Creatinine Clearance is 24mL/min. The current ordered dose of 5mg every morning is too high and should be renally dose adjusted to 2.5mg every morning instead. ,Moderate to Severe Impairment <30 mL/min 2.5 mg
+26,"Patient is a 67 years old female, height 1.6m and weighs 58kg. Latest heart rate is 88 bpm. Latest systolic blood pressure is 150. Patient has past medical history of End-Stage Renal Failure on Hemodialysis (3x/Week), Anemia, Hypertension. Currently patient is admitted for Fatigue, Fluid Overload, Hyperkalemia.
+Patient is also taking the following medications: Oral Alfacalcidol 1mcg daily, Oral Renal Multivitamin daily, IV Iron Sucrose 100mg once every week.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.6 10^9/L
+Haemoglobin = 8.5 g/dL
+Platelet = 230.0 g/dL
+High Sensitive C-Reactive Protein = 15.0 mg/L
+Urea = 28.0 mmol/L
+Creatinine Clearance = 10.0 mL/min
+eGFR = 7.0 mL/min/1.73 m²
+Sodium = 138 mmol/L
+Potassium = 5.6 mmol/L
+Magnesium = 0.95 mmol/L
+Calcium = 1.15 mmol/L
+Bicarbonate = 18.0 mmol/L
+Microbiology Report: null
+Imaging Report: Echocardiogram: Mild Left Ventricular Hypertrophy, Moderate Fluid Overload
+
+The doctor ordered oral enalapril 10mg every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ENALAPRIL%22,test,ENALAPRIL,unsafe,This order is not safe because the maximum daily dose of Enalapril in patients who are on dialysis is 2.5mg after dialysis on dialysis days. This patient is on Haemodialysis 3 times a week. The current ordered dose of 10mg every morning is too high and should be renally dose adjusted to 2.5mg 3 times a week after dialysis instead. ,Dialysis Patients 2.5 mg  = [See Warnings and Precautions (5.2) ]. = Should be taken after hemodialysis on dialysis days 
+27,"Patient is a 82 years old male, height 1.65m and weighs 62kg. Latest heart rate is 78 bpm. Latest systolic blood pressure is 145. Patient has past medical history of Dysphagia, Nasogastric Tube (NGT), Nonvalvular Atrial Fibrillation, Hypertension, Osteoarthritis. Currently patient is admitted for Aspiration Pneumonia.
+Patient is also taking the following medications: NG Feeding with Ensure Plus three times a day, IV Ceftriaxone 2g 24 hourly, Oral Amlodipine 5mg every morning, Oral Bisoprolol 2.5mg every morning, Oral Aspirin 100mg every morning.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 11.8 10^9/L
+Haemoglobin = 10.2 g/dL
+Platelet = 240.0 g/dL
+High Sensitive C-Reactive Protein = 18.0 mg/L
+Urea = 7.8 mmol/L
+Creatinine Clearance = 50.0 mL/min
+eGFR = 42.0 mL/min/1.73 m²
+Sodium = 135 mmol/L
+Potassium = 3.8 mmol/L
+Creatinine Kinase = 100.0 U/L
+Microbiology Report: Sputum Culture: Moderate Growth of Klebsiella pneumoniae
+Imaging Report: Chest X-ray: Right Lower Lobe Pneumonia, Cardiomegaly
+
+The doctor ordered oral enalapril 5mg every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ENALAPRIL%22,train,ENALAPRIL,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,2 DOSAGE AND ADMINISTRATION Hypertension Adult: recommended initial dose is 5 mg once daily. Maximum dose is 40 mg daily
+28,"Patient is a 61 years old male, height 1.62m and weighs 74kg. Latest heart rate is 99 bpm. Latest systolic blood pressure is 142. Patient has past medical history of Hypertension, Hyperlipidemia. Currently patient is admitted for Stroke, Meningitis.
+Patient is also taking the following medications: null.
+Patient has known allergy to: G6PD.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 10.1 10^9/L
+Haemoglobin = 10.5 g/dL
+Platelet = 125.0 g/dL
+Creatinine Clearance = 65.0 mL/min
+eGFR = 56.0 mL/min/1.73 m²
+Sodium = 146 mmol/L
+Potassium = 3.9 mmol/L
+Magnesium = 0.85 mmol/L
+Fasting Glucose = 7.6 mmol/L
+HbA1C = 6.9 %
+Hdl Hdl = 1.2 mmol/L
+LDL = 3.8 mmol/L
+TG = 1.6 mmol/L
+Microbiology Report: null
+Imaging Report: CT Brain: The findings are consistent with a hemorrhagic stroke. Acute left frontal lobe intraparenchymal hemorrhage with surrounding edema and mild mass effect. Mild midline shift without evidence of herniation. No evidence of subarachnoid hemorrhage or significant ischemic changes outside the hemorrhagic region.
+
+The doctor ordered oral enalapril 10mg every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ENALAPRIL%22,test,ENALAPRIL,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,2 DOSAGE AND ADMINISTRATION Hypertension Adult: recommended initial dose is 5 mg once daily. Maximum dose is 40 mg daily
+29,"Patient is a 25 years old female, height 1.55m and weighs 60kg. Latest heart rate is 90 bpm. Latest systolic blood pressure is 134. Patient has past medical history of null. Currently patient is admitted for Dengue in Pregnancy.
+Patient is also taking the following medications: Oral Paracetamol 1g four times a day when necessary for fever pain.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 2.91 10^9/L
+Haemoglobin = 13.8 g/dL
+Platelet = 142.0 g/dL
+Urea = 3.3 mmol/L
+Creatinine Clearance = 96.0 mL/min
+eGFR = 98.0 mL/min/1.73 m²
+Potassium = 134.0 mmol/L
+AST = 33.0 U/L
+ALT = 6.0 U/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral lisinopril 5mg every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22LISINOPRIL%22,train,LISINOPRIL,unsafe,This order is not safe because Lisinopril is contraindicated in pregnant patients. Drugs that act on the renin-angiotensin system can cause injury and death to the developing fetus. Discontinue ACE inhibitors as soon as possible once pregnancy is detected.,"8.1 Pregnancy Risk Summary Lisinopril can cause fetal harm when administered to a pregnant woman. Use of drugs that act on the renin-angiotensin system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death.  
+When pregnancy is detected, discontinue lisinopril as soon as possible."
+30,"Patient is a 31 years old female, height 1.59m and weighs 60kg. Latest heart rate is 95 bpm. Latest systolic blood pressure is 114. Patient has past medical history of Term Pregnancy, Rheumatoid arthritis. Currently patient is admitted for Delivery by emergency cesarean, currently breasfeeding.
+Patient is also taking the following medications: Oral Lactulose 10mL TDS PRN for constipation, Oral Naproxen 275mg TDS PRN for pain, Oral Paracetamol 1g QDS PRN for pain.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.3 10^9/L
+Haemoglobin = 11.3 g/dL
+Platelet = 201.0 g/dL
+Creatinine Clearance = 134.0 mL/min
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral methotrexate 15mg once weekly.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METHOTREXATE%22,test,METHOTREXATE,unsafe,"This order is not safe because, methotrexate is contraindicated in pregnancy. Methotrexate can cause embryo-fetal toxicity, including fetal death. ","Methotrexate tablets can cause embryo-fetal toxicity, including fetal death. For non-neoplastic diseases, methotrexate tablets are contraindicated in pregnancy.
+ 4 CONTRAINDICATIONS Methotrexate tablets are contraindicated in: Pregnant women receiving methotrexate tablets for treatment of non-neoplastic diseases"
+31,"Patient is a 29 years old female, height 1.56m and weighs 70kg. Latest heart rate is 96 bpm. Latest systolic blood pressure is 136. Patient has past medical history of Hypertension. Currently patient is admitted for Spotting, Pregnancy.
+Patient is also taking the following medications: null.
+Patient has known allergy to: pencillin.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 5.3 10^9/L
+Haemoglobin = 11.5 g/dL
+Creatinine Clearance = 112.0 mL/min
+eGFR = 101.0 mL/min/1.73 m²
+Sodium = 136 mmol/L
+Potassium = 4.1 mmol/L
+Magnesium = 0.9 mmol/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral methyldopa 250mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22METHYLDOPA%22,train,METHYLDOPA,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"DOSAGE & ADMINISTRATION Adults : Initiation of Therapy : The usual starting dosage of methyldopa tablets is 250 mg two to three times a day in the first 48 hours.
+methyldopa should be used during pregnancy only if clearly needed. Published reports of the use of methyldopa during all trimesters indicate that if this drug is used during pregnancy the possibility of fetal harm appears remote."
+32,"Patient is a 29 years old female, height 1.56m and weighs 70kg. Latest heart rate is 96 bpm. Latest systolic blood pressure is 136. Patient has past medical history of Hypertension. Currently patient is admitted for Spotting, Pregnancy.
+Patient is also taking the following medications: null.
+Patient has known allergy to: pencillin.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 5.3 10^9/L
+Haemoglobin = 11.5 g/dL
+Creatinine Clearance = 112.0 mL/min
+eGFR = 101.0 mL/min/1.73 m²
+Sodium = 136 mmol/L
+Potassium = 4.1 mmol/L
+Magnesium = 0.9 mmol/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral doxylamine succinate and pyridoxine hydrochloride 1 tablet two times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22DOXYLAMINE%20SUCCINATE%20AND%20PYRIDOXINE%20HYDROCHLORIDE%22,test,DOXYLAMINE SUCCINATE AND PYRIDOXINE HYDROCHLORIDE,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"1 INDICATIONS AND USAGE Doxylamine succinate and pyridoxine hydrochloride delayed-release tablets are indicated for the treatment of nausea and vomiting of pregnancy in women who do not respond to conservative management
+2 DOSAGE AND ADMINISTRATION Take two tablets daily at bedtime. If symptoms are not adequately controlled, the dose can be increased to a maximum recommended dose of four tablets daily"
+33,"Patient is a 76 years old male, height 1.64m and weighs 60kg. Latest heart rate is 85 bpm. Latest systolic blood pressure is 141. Patient has past medical history of Nasogastric tube (NGT), Dysphagia, Benign Prostatic Hyperplasia, Osteoporosis. Currently patient is admitted for Hypoactive Delirium.
+Patient is also taking the following medications: Oral Cholecalciferol 1000 every morning.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 2.32 10^9/L
+Haemoglobin = 11.3 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 59.0 mL/min
+eGFR = 80.0 mL/min/1.73 m²
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered nasogastric risedronate sodium 35mg once weekly.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22RISEDRONATE%20SODIUM%22,train,RISEDRONATE SODIUM,unsafe,"This order is not safe because risedronate sodium delayed-release tablets should be swallowed whole and not meant to be chewed, cut, or crushed. This patient has dysphagia and has a nasogastric tube, this means all his medications need to be crushed and flushed down his nasogastric tube. Thus, risedronate is not suitable for this patient. Alternative treatment options should be considered","Do not chew, cut, or crush risedronate sodium delayed-release tablets."
+34,"Patient is a 76 years old male, height 1.64m and weighs 60kg. Latest heart rate is 85 bpm. Latest systolic blood pressure is 141. Patient has past medical history of Nasogastric tube (NGT), Dysphagia, Benign Prostatic Hyperplasia, Osteoporosis. Currently patient is admitted for Hypoactive Delirium.
+Patient is also taking the following medications: Oral Cholecalciferol 1000 every morning.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 2.32 10^9/L
+Haemoglobin = 11.3 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 59.0 mL/min
+eGFR = 80.0 mL/min/1.73 m²
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered nasogastric dutasteride and tamsulosin hydrochloride capsules 1 capsule every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22DUTASTERIDE%20AND%20TAMSULOSIN%20HYDROCHLORIDE%20CAPSULES%22,test,DUTASTERIDE AND TAMSULOSIN HYDROCHLORIDE CAPSULES,unsafe,"Dutasteride and tamsulosin hydrochloride capsules should be swallowed whole. Do not crush, chew, or open dutasteride and tamsulosin hydrochloride capsules because the contents of the capsule may irritate your lips, mouth, or throat. This patient has a nasogastric tube and all his medications need to be crushed and flushed down his nasogastric tube. Thus, risedronate is not suitable for this patient. Alternative treatment options should be considered","Administration Instructions Dutasteride and tamsulosin hydrochloride capsules should be swallowed whole and not chewed, crushed, or opened."
+35,"Patient is a 82 years old male, height 1.65m and weighs 62kg. Latest heart rate is 78 bpm. Latest systolic blood pressure is 145. Patient has past medical history of Dysphagia, Nasogastric Tube (NGT), Nonvalvular Atrial Fibrillation, Hypertension, Osteoarthritis. Currently patient is admitted for Aspiration Pneumonia.
+Patient is also taking the following medications: NG Feeding with Ensure Plus three times a day, IV Ceftriaxone 2g 24 hourly, Oral Amlodipine 5mg every morning, Oral Bisoprolol 2.5mg every morning, Oral Aspirin 100mg every morning.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 11.8 10^9/L
+Haemoglobin = 10.2 g/dL
+Platelet = 240.0 g/dL
+High Sensitive C-Reactive Protein = 18.0 mg/L
+Urea = 7.8 mmol/L
+Creatinine Clearance = 50.0 mL/min
+eGFR = 42.0 mL/min/1.73 m²
+Sodium = 135 mmol/L
+Potassium = 3.8 mmol/L
+Creatinine Kinase = 100.0 U/L
+Microbiology Report: Sputum Culture: Moderate Growth of Klebsiella pneumoniae
+Imaging Report: Chest X-ray: Right Lower Lobe Pneumonia, Cardiomegaly
+
+The doctor ordered nasogastric enalapril 5mg every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ENALAPRIL%22,test,ENALAPRIL,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,2 DOSAGE AND ADMINISTRATION Hypertension Adult: recommended initial dose is 5 mg once daily. Maximum dose is 40 mg daily
+36,"Patient is a 82 years old male, height 1.65m and weighs 62kg. Latest heart rate is 78 bpm. Latest systolic blood pressure is 145. Patient has past medical history of Dysphagia, Nasogastric Tube (NGT), Nonvalvular Atrial Fibrillation, Hypertension, Osteoarthritis. Currently patient is admitted for Aspiration Pneumonia.
+Patient is also taking the following medications: NG Feeding with Ensure Plus three times a day, IV Ceftriaxone 2g 24 hourly, Oral Amlodipine 5mg every morning, Oral Bisoprolol 2.5mg every morning, Oral Aspirin 100mg every morning.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 11.8 10^9/L
+Haemoglobin = 10.2 g/dL
+Platelet = 240.0 g/dL
+High Sensitive C-Reactive Protein = 18.0 mg/L
+Urea = 7.8 mmol/L
+Creatinine Clearance = 50.0 mL/min
+eGFR = 42.0 mL/min/1.73 m²
+Sodium = 135 mmol/L
+Potassium = 3.8 mmol/L
+Creatinine Kinase = 100.0 U/L
+Microbiology Report: Sputum Culture: Moderate Growth of Klebsiella pneumoniae
+Imaging Report: Chest X-ray: Right Lower Lobe Pneumonia, Cardiomegaly
+
+The doctor ordered nasogastric apixaban 5mg two times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22APIXABAN%22,train,APIXABAN,safe,"The medication order is safe because it aligns with the drug monograph and contains no conflicting information. The medication is indicated, dose is appropriate and apixaban tablets can be crushed and suspended in water delivered through a nasogastric tube","Alternatively, apixaban tablets may be crushed and suspended in 60 mL of water or D5W and promptly delivered through a nasogastric tube "
+37,"Patient is a 3 years old male, height 0.85m and weighs 18kg. Latest heart rate is 97 bpm. Latest systolic blood pressure is 114. Patient has past medical history of null. Currently patient is admitted for Viral Fever.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 2.6 10^9/L
+Haemoglobin = 13.0 g/dL
+Platelet = 164.0 g/dL
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral dextrometorphan 5mL  three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22DEXTROMETHORPHAN%22,train,DEXTROMETORPHAN,unsafe,"This order is not safe because the drug monography do not recommend the use of dextrometorphan in children under the age of 4 years old. This patient is 3 years old, and thus Dextrometorphan is not suitable for this patient. ",children under 4 years of age do not use
+38,"Patient is a 9 years old female, height 1.21m and weighs 30kg. Latest heart rate is 97 bpm. Latest systolic blood pressure is 115. Patient has past medical history of null. Currently patient is admitted for Left distal tibia and fibula fracture, Facial Cellulitis.
+Patient is also taking the following medications: Oral Fexofenadine 6mg/mL suspension 30mg twice a day, Oral Cetirizine 5mg/5mL solution 10mg eveyr morning when necessary..
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+Creatinine Clearance = 80.0 mL/min
+Microbiology Report: null
+Imaging Report: XR, TIBIA FIBULA, LEFT, XR, KNEE JOINT, LEFT, X-Ray ANKLE JOINT, LEFT: Displaced comminuted fractures of the distal tibia and fibular shafts are seen with post backslab alignment as shown. Diffuse soft tissue swelling of the imaged left lower limb is seen. No dislocation seen.
+
+The doctor ordered oral dextrometorphan 5mL  two times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22DEXTROMETHORPHAN%22,test,DEXTROMETORPHAN,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"children 6 to under 12 years of age 5 mL every 12 hours, not to exceed 10 mL in 24 hours"
+39,"Patient is a 1 years old male, height 0.85m and weighs 18kg. Latest heart rate is 97 bpm. Latest systolic blood pressure is 114. Patient has past medical history of null. Currently patient is admitted for Viral Fever.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 3.5 10^9/L
+Haemoglobin = 13.9 g/dL
+Platelet = 164.0 g/dL
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral dimenhydrinate 0.5 tablet three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22DIMENHYDRINATE%22,train,DIMENHYDRINATE,unsafe,"This order is not safe because the drug monography do not recommend the use of dimenhydrinate in children under the age of 2 years old. This patient is 1 year old, and thus Dimenhydrinate is not suitable for this patient. ",Do not use for children under 2 years of age unless directed by a doctor.
+40,"Patient is a 3 years old male, height 0.85m and weighs 18kg. Latest heart rate is 97 bpm. Latest systolic blood pressure is 114. Patient has past medical history of null. Currently patient is admitted for Viral Fever.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 2.6 10^9/L
+Haemoglobin = 13.0 g/dL
+Platelet = 164.0 g/dL
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral dimenhydrinate 0.5 tablet three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22DIMENHYDRINATE%22,test,DIMENHYDRINATE,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"children 2 to under 6 years 1/2 tablet every 6-8 hours; do not exceed 1&1/2 tablets in 24 hours, or as directed by a doctor"
+41,"Patient is a 43 years old male, height 1.65m and weighs 85kg. Latest heart rate is 78 bpm. Latest systolic blood pressure is 125. Patient has past medical history of Diabetes Melitus Type 2, Hyperlipidemia. Currently patient is admitted for Acute Kidney Injury secondary to Gastroenteritis, Community Acquired Pneumonia.
+Patient is also taking the following medications: null.
+Patient has known allergy to: glipizide.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.5 10^9/L
+Haemoglobin = 14.7 g/dL
+Platelet = 403.0 g/dL
+High Sensitive C-Reactive Protein = 21.6 mg/L
+Urea = 4.8 mmol/L
+Creatinine Clearance = 16.0 mL/min
+eGFR = 25.0 mL/min/1.73 m²
+Sodium = 137 mmol/L
+Potassium = 4.7 mmol/L
+AST = 32.0 U/L
+ALT = 62.0 U/L
+Albumin = 35.0 g/L
+Fasting Glucose = 7.8 mmol/L
+HbA1C = 7.9 %
+Microbiology Report: null
+Imaging Report: Chest X-ray: Left lower zone airspace changes and possible small left pleural effusion. Mild right infrahilar airspace changes Biapical pleural thickening/scarring and fibronodular scarring in the right upper zone. The heart size is not accurately assessed on this projection.  Degenerative changes are noted in the imaged spine.
+
+The doctor ordered oral glipizide 5mg twice a day (pre-meal).",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22GLIPIZIDE%22,train,GLIPIZIDE,unsafe,This order is not safe because the patient is allergic to glipizide. Please consider alternative treatment options ,CONTRAINDICATIONS Glipizide is contraindicated in patients with: 1. Known hypersensitivity to the drug.
+42,"Patient is a 31 years old female, height 1.68m and weighs 49kg. Latest heart rate is 87 bpm. Latest systolic blood pressure is 119. Patient has past medical history of null. Currently patient is admitted for Trigger Finger.
+Patient is also taking the following medications: null.
+Patient has known allergy to: tramadol.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.2 10^9/L
+Haemoglobin = 12.5 g/dL
+Platelet = 56.0 g/dL
+Creatinine Clearance = 80.0 mL/min
+eGFR = 64.0 mL/min/1.73 m²
+Sodium = 140 mmol/L
+Potassium = 4.1 mmol/L
+Magnesium = 0.9 mmol/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral tramadol hydrochloride 50mg two times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22TRAMADOL%20HYDROCHLORIDE%22,test,TRAMADOL HYDROCHLORIDE,unsafe,This order is not safe because the patient is allergic to tramadol hydrochloride. Please consider alternative treatment options ,"Hypersensitivity to tramadol (e.g., anaphylaxis)"
+43,"Patient is a 51 years old male, height 1.72m and weighs 60kg. Latest heart rate is 72 bpm. Latest systolic blood pressure is 140. Patient has past medical history of Type 2 Diabetes Mellitus, Anaemia, Proteinuria, End Stage Renal Disease, on Hemodialysis 3 times a week . Currently patient is admitted for Facial Cellulitis.
+Patient is also taking the following medications: Oral Alfacalcidol capsule 1mcg every Friday, IV Recormon Injection 8000u 3x/week after dialysis, Oral Renal Vitamin 1 tab ON.
+Patient has known allergy to: amoxicillin.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 15.36 10^9/L
+Haemoglobin = 8.1 g/dL
+Platelet = 199.0 g/dL
+High Sensitive C-Reactive Protein = 109.0 mg/L
+Urea = 8.7 mmol/L
+Creatinine Clearance = 19.0 mL/min
+eGFR = 18.0 mL/min/1.73 m²
+Sodium = 130 mmol/L
+Potassium = 4.0 mmol/L
+Calcium = 2.07 mmol/L
+Albumin = 17.0 g/L
+Creatinine Kinase = 26.0 U/L
+Fasting Glucose = 9.9 mmol/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered intravenous clindamycin 600mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CLINDAMYCIN%22,test,CLINDAMYCIN,unsafe,This order is not safe because the patient is allergic to clindamycin. Please consider alternative treatment options ,CONTRAINDICATIONS This drug is contraindicated in individuals with a history of hypersensitivity to preparations containing clindamycin or lincomycin.
+44,"Patient is a 55 years old male, height 1.75m and weighs 78kg. Latest heart rate is 85 bpm. Latest systolic blood pressure is 130. Patient has past medical history of Kidney Transplant, Hyperlipidemia, Hypertension. Currently patient is admitted for Mild Acute Rejection Episode.
+Patient is also taking the following medications: Oral Prednisolone 5mg every morning, Oral Cyclosporine 325mg twice a day.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.2 10^9/L
+Haemoglobin = 12.5 g/dL
+Platelet = 210.0 g/dL
+High Sensitive C-Reactive Protein = 10.0 mg/L
+Urea = 6.5 mmol/L
+Creatinine Clearance = 65.0 mL/min
+eGFR = 58.0 mL/min/1.73 m²
+Sodium = 138 mmol/L
+Potassium = 4.5 mmol/L
+Magnesium = 0.8 mmol/L
+Calcium = 1.1 mmol/L
+Bicarbonate = 22.0 mmol/L
+AST = 35.0 U/L
+ALT = 40.0 U/L
+Albumin = 38.0 g/L
+Fasting Glucose = 7.5 mmol/L
+HbA1C = 8.2 %
+Hdl Hdl = 1.0 mmol/L
+LDL = 3.2 mmol/L
+TG = 1.5 mmol/L
+Microbiology Report: null
+Imaging Report: Renal Ultrasound: No hydronephrosis, stable allograft
+
+The doctor ordered oral azathioprine 100mg every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22AZATHIOPRINE%22,train,AZATHIOPRINE,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"Dose reduction to maintenance levels of 1 to 3 mg/kg daily is usually possible. 
+The dose of azathioprine tablets required to prevent rejection and minimize toxicity will vary with individual patients; this necessitates careful management. The initial dose is usually 3 to 5 mg/kg daily"
+45,"Patient is a 55 years old male, height 1.75m and weighs 78kg. Latest heart rate is 85 bpm. Latest systolic blood pressure is 130. Patient has past medical history of Kidney Transplant, Hyperlipidemia, Hypertension. Currently patient is admitted for Mild Acute Rejection Episode.
+Patient is also taking the following medications: Oral Prednisolone 5mg every morning, Oral Cyclosporine 325mg twice a day.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.2 10^9/L
+Haemoglobin = 12.5 g/dL
+Platelet = 210.0 g/dL
+High Sensitive C-Reactive Protein = 10.0 mg/L
+Urea = 6.5 mmol/L
+Creatinine Clearance = 65.0 mL/min
+eGFR = 58.0 mL/min/1.73 m²
+Sodium = 138 mmol/L
+Potassium = 4.5 mmol/L
+Magnesium = 0.8 mmol/L
+Calcium = 1.1 mmol/L
+Bicarbonate = 22.0 mmol/L
+AST = 35.0 U/L
+ALT = 40.0 U/L
+Albumin = 38.0 g/L
+Fasting Glucose = 7.5 mmol/L
+HbA1C = 8.2 %
+Hdl Hdl = 1.0 mmol/L
+LDL = 3.2 mmol/L
+TG = 1.5 mmol/L
+Microbiology Report: null
+Imaging Report: Renal Ultrasound: No hydronephrosis, stable allograft
+
+The doctor ordered oral mycophenolic acid 720mg two times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22MYCOPHENOLIC%20ACID%22,test,MYCOPHENOLIC ACID,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,"2 DOSAGE AND ADMINISTRATION In adults: 720 mg by mouth, twice daily (1,440 mg total daily dose) on an empty stomach, 1 hour before or 2 hours after food intake."
+46,"Patient is a 31 years old male, height 1.68m and weighs 86kg. Latest heart rate is 87 bpm. Latest systolic blood pressure is 119. Patient has past medical history of Hypertension. Currently patient is admitted for Rhabdomylosis, Transaminitis.
+Patient is also taking the following medications: Oral Atenolol 50mg two times a day.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 9.56 10^9/L
+Haemoglobin = 14.9 g/dL
+Platelet = 318.0 g/dL
+Urea = 2.8 mmol/L
+eGFR = 111.0 mL/min/1.73 m²
+Sodium = 138 mmol/L
+Potassium = 4.0 mmol/L
+Bicarbonate = 28.0 mmol/L
+AST = 73.0 U/L
+ALT = 160.0 U/L
+Albumin = 46.0 g/L
+Creatinine Kinase = 52275.0 U/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral amlodipine 5mg every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22AMLODIPINE%22,train,AMLODIPINE,safe,The medication order is safe because it aligns with the drug monograph and contains no conflicting information.,2 DOSAGE AND ADMINISTRATION Adult recommended starting dose: 5 mg orally once daily with maximum dose 10 mg once daily.
+47,"Patient is a 46 years old male, height 1.68m and weighs 86kg. Latest heart rate is 87 bpm. Latest systolic blood pressure is 119. Patient has past medical history of Vertigo. Currently patient is admitted for Newly Diagnosed Type 2 Diabetes Mellitus, Recurrent Cellulitis.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+Creatinine Clearance = 47.0 mL/min
+eGFR = 40.0 mL/min/1.73 m²
+Fasting Glucose = 9.1 mmol/L
+HbA1C = 8.1 %
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral betahistine 24mg every morning.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22BETAHISTINE%22,train,BETAHISTINE,unsafe,This medication order cannot be verified due to the absence of information for the drug monograph. Verification by a pharmacist is required.,
+48,"Patient is a 63 years old male, height 1.72m and weighs 90kg. Latest heart rate is 80 bpm. Latest systolic blood pressure is 122. Patient has past medical history of Chronic Kidney Disease. Currently patient is admitted for Right Lower Limb Cellulitis .
+Patient is also taking the following medications: Subcutaneous Epoetin Beta Prefilled Syringe 4000u 3 times per week, Oral Renal Vitamin 1 tab every night.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 13.6 10^9/L
+Haemoglobin = 11.3 g/dL
+Platelet = 355.0 g/dL
+High Sensitive C-Reactive Protein = 271.8 mg/L
+Urea = 5.4 mmol/L
+Creatinine Clearance = 15.0 mL/min
+eGFR = 10.0 mL/min/1.73 m²
+Sodium = 141 mmol/L
+Potassium = 3.8 mmol/L
+Magnesium = 0.7 mmol/L
+Bicarbonate = 24.0 mmol/L
+AST = 42.0 U/L
+ALT = 34.0 U/L
+Microbiology Report: Investigation name is Wound culture, aerobic and anaerobic and Investigation item is Wound Culture (Aerobic and Anaerobic) (NUHS). Abnormal Results: (Heavy) Staphylococcus aureus. Methylcillin sensitive staph aureis. Culture sensitivity results pending
+Imaging Report: null
+
+The doctor ordered oral alfacalcidol 1mcg once weekly.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22ALFACALCIDOL%22,test,ALFACALCIDOL,unsafe,This medication order cannot be verified due to the absence of information for the drug monograph. Verification by a pharmacist is required.,
+49,"Patient is a 35 years old female, height 1.48m and weighs 46kg. Latest heart rate is 96 bpm. Latest systolic blood pressure is 120. Patient has past medical history of null. Currently patient is admitted for Facial Cellulitis, Vertigo.
+Patient is also taking the following medications: null.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 15.36 10^9/L
+Haemoglobin = 8.1 g/dL
+Platelet = 199.0 g/dL
+High Sensitive C-Reactive Protein = 109.0 mg/L
+Urea = 8.7 mmol/L
+Creatinine Clearance = 78.0 mL/min
+eGFR = 64.0 mL/min/1.73 m²
+Sodium = 141 mmol/L
+Potassium = 4.0 mmol/L
+Magnesium = 0.8 mmol/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral cinnarizine 15mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22CINNARIZINE%22,train,CINNARIZINE,unsafe,This medication order cannot be verified due to the absence of information for the drug monograph. Verification by a pharmacist is required.,
+50,"Patient is a 31 years old female, height 1.59m and weighs 60kg. Latest heart rate is 95 bpm. Latest systolic blood pressure is 114. Patient has past medical history of Irritable Bowel Syndrome. Currently patient is admitted for Methicillin Sensitive Staphylococcus Aureus Bacteremia.
+Patient is also taking the following medications: Oral Paracetamol 1g four times a day when necessary for fever pain.
+Patient has known allergy to: null.
+
+Some recent lab results and reports are shown below:
+White Blood Cell = 13.8 10^9/L
+Haemoglobin = 13.8 g/dL
+Platelet = 142.0 g/dL
+Urea = 3.3 mmol/L
+Creatinine Clearance = 96.0 mL/min
+eGFR = 98.0 mL/min/1.73 m²
+Potassium = 134.0 mmol/L
+AST = 33.0 U/L
+ALT = 6.0 U/L
+Microbiology Report: null
+Imaging Report: null
+
+The doctor ordered oral mebeverine 135mg three times a day.",https://api.fda.gov/drug/label.json?search=openfda.generic_name.exact:%22MEBEVERINE%22,test,MEBEVERINE,unsafe,This medication order cannot be verified due to the absence of information for the drug monograph. Verification by a pharmacist is required.,
